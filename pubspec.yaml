@@ -14,6 +14,7 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.7
 
 #--------[DEV PACKAGES]-----------------
 dev_dependencies:
@@ -27,7 +28,7 @@ flutter:
 
   #--------[ASSETS]-----------------
   assets:
-    - assets/logo
+    - assets/logo/
 
   #--------[FONTS]-----------------
   fonts:
