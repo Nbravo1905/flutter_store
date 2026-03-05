@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:store/features/authentication/screens/onboarding/onboarding.dart';
 import 'package:store/utils/theme/theme.dart';
 
 class MyApp extends StatelessWidget {
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: UAppTheme.lightTheme,
       darkTheme: UAppTheme.darkTheme,
-      home: Scaffold(),
+      home: const OnboardingScreen(),
     );
   }
 }

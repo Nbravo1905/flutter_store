@@ -15,6 +15,9 @@ dependencies:
 
   cupertino_icons: ^1.0.8
   flutter_native_splash: ^2.4.7
+  lottie: ^3.3.2
+  smooth_page_indicator: ^2.0.1
+  get: ^4.7.3
 
 #--------[DEV PACKAGES]-----------------
 dev_dependencies:
@@ -29,6 +32,7 @@ flutter:
   #--------[ASSETS]-----------------
   assets:
     - assets/logo/
+    - assets/animations/
 
   #--------[FONTS]-----------------
   fonts:

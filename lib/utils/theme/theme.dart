@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:store/utils/constants/colors.dart';
+import 'package:store/utils/theme/widgets_theme/appbar_theme.dart';
 import 'package:store/utils/theme/widgets_theme/bottom_sheet_theme.dart';
 import 'package:store/utils/theme/widgets_theme/checkbox_theme.dart';
 import 'package:store/utils/theme/widgets_theme/chip_theme.dart';
@@ -20,7 +21,7 @@ class UAppTheme {
     scaffoldBackgroundColor: UColors.white,
     textTheme: UTextTheme.lightTextTheme,
     chipTheme: UChipTheme.lightChipTheme,
-    appBarTheme: UAppTheme.lightTheme,
+    appBarTheme: UAppBarTheme.lightAppBarTheme,
     checkboxTheme: UCheckboxTheme.lightCheckboxTheme,
     bottomSheetTheme: UBottomSheetTheme.lightBottomSheetTheme,
     elevatedButtonTheme: UElevatedButtonTheme.lightElevatedButtonTheme,
@@ -37,7 +38,7 @@ class UAppTheme {
     scaffoldBackgroundColor: UColors.black,
     textTheme: UTextTheme.darkTextTheme,
     chipTheme: UChipTheme.darkChipTheme,
-    appBarTheme: UAppTheme.darkTheme,
+    appBarTheme: UAppBarTheme.darkAppBarTheme,
     checkboxTheme: UCheckboxTheme.darkCheckboxTheme,
     bottomSheetTheme: UBottomSheetTheme.darkBottomSheetTheme,
     elevatedButtonTheme: UElevatedButtonTheme.darkElevatedButtonTheme,
